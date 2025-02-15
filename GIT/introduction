@@ -20,14 +20,26 @@ git push – Upload changes to a remote repository
 git pull – Download the latest changes from the repository
 git status – Check the current status of the repository
 
+✅ Configaration of Users
+*******************************
+git config --local user.name "Your Name"
+git config --local user.email "your.email@example.com"
 
+✅ Untrack files
+****************************
+-git restore  <file name which file you wanna untrack and send 
+                                       to staging area >
+-git status 
 
+✅GIT Revert
+**********************
+git revert means if we delete any files we can get back again 
+by using " git revert " cammand .
 
+-git revert <commited ID>
 
-
-
-
-✅
-✅
-✅
-✅
+✅GIT Resert Hard
+********************************
+by using heard we can removie perminently
+-git reset --hard <commitID> 
+ WE can't get it back , its will delete perminently.
