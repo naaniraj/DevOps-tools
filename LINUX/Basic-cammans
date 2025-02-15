@@ -1,0 +1,95 @@
+1. File & Directory Commandls
+***********************************
+– List files and directories
+pwd – Show the current directory path
+cd [directory] – Change directory
+mkdir [directory] – Create a new directory
+rm [file] – Delete a file
+rm -r [directory] – Delete a directory and its contents
+cp [source] [destination] – Copy a file or folder
+mv [source] [destination] – Move or rename a file/folder
+
+2. File Viewing Commands
+*****************************
+cat [file] – Show the content of a file
+less [file] – View a file page by page
+head [file] – Show the first 10 lines of a file
+tail [file] – Show the last 10 lines of a file
+
+3. User & Permission Commands
+*******************************
+whoami – Show the current user
+who – Show all logged-in users
+chmod [permissions] [file] – Change file permissions
+chown [user]:[group] [file] – Change file owner
+
+4. Process Management Commands
+**********************************
+ps – Show running processes
+top – Show real-time system usage
+kill [PID] – Kill a process by its ID
+pkill [process-name] – Kill a process by name
+5. Networking Commands
+ifconfig or ip a – Show network details
+ping [website] – Check network connectivity
+wget [URL] – Download a file from the internet
+
+6. Package Management Commands
+******************************************
+apt install [package] (Debian/Ubuntu) – Install software
+yum install [package] (RHEL/CentOS) – Install software
+dnf install [package] (Fedora) – Install software
+7. Other Useful Commands
+clear – Clear the terminal
+history – Show previously used commands
+echo "Hello" – Print text to the terminal
+uname -a – Show system information
+Here are some common Git commands:
+
+ 7.Navigation
+**************************************
+1. cd - Change directory
+Example: cd Documents
+2. cd ~ - Go to home directory
+3. cd .. - Go to parent directory
+4. pwd - Print working directory
+
+ 8 .File Management
+**********************************************
+1. ls - List files and directories
+Example: ls -l
+2. mkdir - Make a new directory
+Example: mkdir MyFolder
+3. rm - Remove a file or directory
+Example: rm myfile.txt
+4. cp - Copy a file or directory
+Example: cp myfile.txt MyFolder
+5. mv - Move or rename a file or directory
+Example: mv myfile.txt MyFolder
+
+ 9 .File Editing
+*******************************************************
+1. nano - Open a file in the nano editor
+Example: nano myfile.txt
+2. vim - Open a file in the vim editor
+Example: vim myfile.txt
+3. echo - Write text to a file
+Example: echo "Hello World!" > myfile.txt
+
+10 . System Information
+*******************************************************
+1. uname -a - Display system information
+2. hostname - Display the system's hostname
+3. whoami - Display the current username
+4. date - Display the current date and time
+
+11 . User Management
+********************************************************
+1. sudo - Run a command with superuser privileges
+Example: sudo apt-get install firefox
+2. su - Switch to the superuser account
+3. useradd - Add a new user account
+Example: useradd myuser
+4. passwd - Change a user's password
+Example: passwd myuser
+
