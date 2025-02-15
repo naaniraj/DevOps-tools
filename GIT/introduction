@@ -1,0 +1,33 @@
+Git is a version control system that helps you track changes in your code. 
+It is mainly used by developers to manage projects, 
+collaborate with teams, and keep track of different versions of their work.
+
+ ✅ Why Use Git?
+**********************************************
+* Tracks Changes – Saves every update you make to your code.
+* Collaboration – Multiple people can work on the same project.
+* Backup & Recovery – You can go back to an older version if needed.
+* Branching – Work on new features without affecting the main project.
+
+
+✅ Common Git Commands
+****************************
+git init – Start a new Git repository
+git clone [URL] – Copy a project from GitHub or another repository
+git add [file] – Stage a file for commit
+git commit -m "message" – Save changes with a message
+git push – Upload changes to a remote repository
+git pull – Download the latest changes from the repository
+git status – Check the current status of the repository
+
+
+
+
+
+
+
+
+✅
+✅
+✅
+✅
