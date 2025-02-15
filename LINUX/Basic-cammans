@@ -1,6 +1,15 @@
+✅ Primary cammands
+*************************
+ls -     its show all files that inside the directory
+ls -al  -it's show hiddin files in directory
+cd       [change directory ] its use for change the present directory
+pwd     -it's show whare we are working
+cd home -directory will change into home
+touch <file-name>  - to create a file
+
 1. File & Directory Commandls
 ***********************************
-– List files and directories
+ls– List files and directories
 pwd – Show the current directory path
 cd [directory] – Change directory
 mkdir [directory] – Create a new directory
