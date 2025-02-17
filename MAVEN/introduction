@@ -1,1 +1,12 @@
-maven introduction
+maven is an automation project management tool developed by apache software
+its based on POM [Project Object Model] 
+its build too and manages dependencies .
+its can build any number of projects in to desired output such as an JAR,WAR .
+it's mostly used for java projects and its written in java too.
+
+EAR - Enterprice Application Architecher
+WAR - web Application Architecture 
+JAR - Java Application Archecture 
+
+ -----> if we have java code we convert into JAR  
+        if we have HTML,CSS we  conert into WAR file 
