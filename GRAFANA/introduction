@@ -1,1 +1,6 @@
-grafana intro
+What is GRAFANA ?
+****************************
+Grafana is a tool that helps you visualize and monitor data using beautiful dashboards.
+like we  have a lot of data coming from different sources, like servers, applications, or sensors. 
+Grafana helps you see this data in real time using graphs, charts, and alerts, making it easier to understand and take action.
+It’s like a control panel for your system’s health, where you can track performance, detect problems, and get alerts before something goes wrong.
