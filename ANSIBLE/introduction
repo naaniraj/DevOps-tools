@@ -1,1 +1,12 @@
-ansible introductin
+--  it is a configaration management tool
+--  A nsible is simple IT Engine which automates 
+       Application deployment
+-- by writting play books we can install jenkins ,sonarqube 
+nodes and other tools with SSH
+--  we use YAML scripting language which works on key -pair 
+-- we use PYTHON for back dend 
+-- by using ANSIBLE we can automate entair servers
+    creation ,installation, setup .
+-- it is an tool which automates from server creation to deployment
+
+
