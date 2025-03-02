@@ -1,1 +1,7 @@
-promo intro
+Prometheus is a monitoring tool that helps track the performance and health of servers, applications, and other systems.
+
+It works by collecting and storing metrics (like CPU usage, memory, network traffic, etc.) 
+from different sources and then allowing you to analyze and alert when something goes wrong.
+
+Think of it like a security camera for your IT systems—it continuously watches, records data,
+and alerts you if something unusual happens. It is often used with Grafana to visualize the collected data in dashboards.
