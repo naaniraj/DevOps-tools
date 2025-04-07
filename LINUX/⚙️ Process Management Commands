@@ -1,0 +1,13 @@
+ps    	   =  Shows running processes for current user
+ps -aux	   =  Shows all processes (detailed)
+top	       =  Live view of processes (like Task Manager)
+htop	     =  Better version of top (if installed)
+pidof processname	  = Shows the PID (Process ID) of a program
+kill PID        	  = Stops (kills) a process using its PID
+kill -9 PID     	  = Force kill a process (if normal kill doesn’t work)
+nice	      =  Starts a process with a priority
+renice	    = Changes the priority of a running process
+&	     =  Runs a process in the background
+jobs	 =  Shows background processes started by the current user
+fg	   =  Brings a background process to foreground
+bg	   =  Resumes a paused job in the background
