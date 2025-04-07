@@ -1,0 +1,9 @@
+adduser username   =	Adds a new user (recommended way)
+useradd username	 =  Also adds a new user (older way)
+passwd username    =	Sets or changes the user's password
+deluser username   =	Deletes a user
+usermod        =	Modifies a user (like change name, shell, group, etc.)
+whoami    	   =  Shows your current username
+id username	   = Shows the user ID (UID) and group info
+su - username	 = Switch to another user account
+exit	         =  Exit from that user account and come back
