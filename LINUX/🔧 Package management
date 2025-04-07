@@ -1,0 +1,27 @@
+🟢 Debian/Ubuntu (APT - Advanced Package Tool)
+
+sudo apt update                 # Update the list of available packages
+sudo apt upgrade                # Upgrade all installed packages
+sudo apt install <package>     # Install a package
+sudo apt remove <package>      # Remove a package (keeps config files)
+sudo apt purge <package>       # Remove a package and its config files
+sudo apt autoremove            # Remove unnecessary packages
+sudo apt search <package>      # Search for a package
+sudo apt show <package>        # Show details about a package
+
+🔴 RedHat/CentOS (YUM - Yellowdog Updater Modified)
+
+sudo yum update                # Update all packages
+sudo yum install <package>     # Install a package
+sudo yum remove <package>      # Remove a package
+sudo yum search <package>      # Search for a package
+sudo yum info <package>        # Get detailed info about a package
+
+🔵 Fedora / Newer CentOS / RHEL (DNF - Dandified Yum)
+
+sudo dnf update                # Update all packages
+sudo dnf install <package>     # Install a package
+sudo dnf remove <package>      # Remove a package
+sudo dnf search <package>      # Search for a package
+sudo dnf info <package>        # Show package details
+sudo dnf autoremove            # Clean up unnecessary packages
