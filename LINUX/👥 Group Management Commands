@@ -1,0 +1,7 @@
+addgroup groupname    =  	Creates a new group
+groupadd groupname	   =  Also creates a new group (older way)
+delgroup groupname     =	Deletes a group
+groupdel groupname	   = Also deletes a group (older way)
+usermod -aG groupname username	    = Adds a user to a group (important!)
+groups username	                    =  Shows the groups that a user belongs to
+gpasswd -d username groupname	      =   Removes a user from a group
