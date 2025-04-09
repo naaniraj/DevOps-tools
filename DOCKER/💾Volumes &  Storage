@@ -1,0 +1,21 @@
+🔹 What is Docker volume ? 
+********************************
+A volume is a special storage area managed by Docker.
+It is used to keep data even if the container is deleted.
+When you run a container, Docker needs a place to store data — 
+    like files your app uses, database , logs, etc.
+    we use Docker Volumes to store the date in dockerr ,
+
+🔹 How to Create and Use a Volume?
+****************************************
+✅ Step 1: Create a volume
+      docker volume create mydata
+
+✅ Step 2: Run a container with the volume
+
+docker run -d \
+  --name mycontainer \
+  -v mydata:/app/data \
+  myimage
+
+This means: Mount the volume mydata into the container at /app/data
