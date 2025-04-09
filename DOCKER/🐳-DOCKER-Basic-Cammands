@@ -14,7 +14,7 @@
     EX: docker stop <container_id>
 
 6️⃣ docker rm	    =   Remove a container
-    EX: docker stop <container_id>
+    EX: docker rm <container_id>
 
 7️⃣ docker images	  =  See saved images
    { to see how many images we have }
