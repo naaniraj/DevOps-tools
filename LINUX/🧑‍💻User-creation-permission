@@ -18,4 +18,4 @@ Set read/write/exec	        chmod u+rwx file.txt	                    Gives owner
 Remove permissions	        chmod go-rwx file.txt	                    Removes all permissions from group & others
 Set numeric permissions   	chmod 755 script.sh                     	Sets permissions using numbers:
 7=rwx, 5=r-x, 0=---
-View permissions	          ls -l	                                    Lists files with permissions, owners, and groups
+View permissions	           ls -l	                                    Lists files with permissions, owners, and groups
