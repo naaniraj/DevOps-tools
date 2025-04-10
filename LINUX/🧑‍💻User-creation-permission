@@ -1,0 +1,21 @@
+🧑‍💻 User Creation Commands ⚙️
+*******************************
+Action	               Command Example	                           Description
+^^^^^^^^^^^^          ^^^^^^^^^^^^^^^^^^^^^                       ^^^^^^^^^^^^^^^^^^^  
+Create a new user    - 	sudo adduser niranjan	                     Creates a user named niranjan (also creates home dir)
+Add user to a group  - 	sudo usermod -aG sudo niranjan	            Adds niranjan to sudo group (for admin access)
+Check groups of user -   groups niranjan	                          Shows groups the user belongs to
+Switch to user	     -   su - niranjan                             	Switch to the niranjan user account
+
+
+🔒 File & Directory Permission Commands
+************************************************
+Action                    	Command Example                           	Description
+^^^^^^^^^^^^^^             ^^^^^^^^^^^^^^^^^^^^^^^^^^^                ^^^^^^^^^^^^^^^^^^^
+Change file owner	          sudo chown niranjan file.txt            	Changes owner of file.txt to niranjan
+Change file group         	sudo chgrp devops file.txt	              Changes group of file
+Set read/write/exec	        chmod u+rwx file.txt	                    Gives owner read/write/execute
+Remove permissions	        chmod go-rwx file.txt	                    Removes all permissions from group & others
+Set numeric permissions   	chmod 755 script.sh                     	Sets permissions using numbers:
+7=rwx, 5=r-x, 0=---
+View permissions	          ls -l	                                    Lists files with permissions, owners, and groups
