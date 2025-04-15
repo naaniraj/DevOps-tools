@@ -25,6 +25,21 @@ Edit --> give the path of the our terraform EXE.FILE📄[ -->NEW -->C:\SOFTWARES
 ![image](![Screenshot 2025-04-15 105011](https://github.com/user-attachments/assets/f53811c1-c51e-46f8-a8d0-f2e6234c24a8)
 )
 
+## WRITE TERRAFORM FILE WITH VS-CODE
+
+-->🐙[Create a Repository in github "Terraform"] -->copy the repo SSH path 
+    🐙💻 --> go to git bash 
+
+    cd terraform
+    git init
+    git branch -m main
+    git remote origin (git@github.com:naaniraj/DevOps-tools.git)
+
+--> go to   "VS-CODE"  -->📁[Create a folder "Terraform"]
+    ---> 📄Session-1 { you can write terraform code here }
+
+  
+
    
 
    
