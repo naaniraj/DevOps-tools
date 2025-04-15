@@ -13,7 +13,7 @@
       terraform version
       ---
 
-  
+  if the terraform is thare it will show the  version of TERRAFORM
 
    
 
