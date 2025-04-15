@@ -9,12 +9,19 @@ Extract the file --> you will get exe.file 📄 " create a file and keep the sof
 --> system variable --> 
 Edit --> give the path of the our terraform EXE.FILE📄[ -->NEW -->C:\SOFTWARES'S --> OK--> OK --> OK
       ( system will check all the paths whare is in the terraform )
-      
-      
+          
       terraform version
       
-
-  if the terraform is thare it will show the  version of TERRAFORM
+ " if the terraform is thare it will show the  version of TERRAFORM "
+ 
+ --> go to GOOGLE --> 🔍'AWS cli install ' -->  windows -->
+ click the download of the path 
+ -->AWS CAMMAND LINE INTERFACE v2 setup 💻 [🌩️ AWS]
+   --> next --> next --> install📥--> 
+   
+        aws --version
+" to check the version of aws "
+   
 
    
 
