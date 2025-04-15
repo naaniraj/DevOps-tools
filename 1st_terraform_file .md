@@ -34,7 +34,7 @@ These should be defined in the resource block
  }
 ```
 
-So the final file looks [like this](v1-ec2.tf)
+
 
 
 
