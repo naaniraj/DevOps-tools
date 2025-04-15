@@ -21,6 +21,10 @@ Edit --> give the path of the our terraform EXE.FILE📄[ -->NEW -->C:\SOFTWARES
    
         aws --version
 " to check the version of aws "
+
+![image](![Screenshot 2025-04-15 105011](https://github.com/user-attachments/assets/f53811c1-c51e-46f8-a8d0-f2e6234c24a8)
+)
+
    
 
    
