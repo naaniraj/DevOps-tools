@@ -8,6 +8,7 @@
 --> system variable --> Edit --> give the path of the our terraform EXE.FILE📄[
       -->NEW -->C:\SOFTWARES'S --> OK--> OK --> OK
       ( system will check all the paths ,whare is the terraform )
+      
       ---sh
       terraform version
       ---
