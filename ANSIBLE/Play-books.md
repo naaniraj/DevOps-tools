@@ -2,7 +2,6 @@
 **************************************
 playbook is a collection of modules.
 we can execute multiple modules at same time.
-we can reuse the playbook.
 playbook will be written on YAML language.
 YAML: YET ANOTHER MARKUP LANGUAGE
 its a human readable and serial langauge.
