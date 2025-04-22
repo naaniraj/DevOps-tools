@@ -1,4 +1,4 @@
-🚀 WHAT IS MEAN PIPELINE ?
+## 🚀 WHAT IS MEAN PIPELINE ?
 ***************************************************************
 PIPELINE: 
 stpe by step execution of particular process
@@ -21,7 +21,7 @@ TYPES:
    YAML-like Groovy syntax. It is easier to read and write compared to Scripted Pipelines,
    making it beginner-friendly and widely used.
 
-What is CI-CD  ?
+## What is CI-CD  ?
 *****************************
 ci : continous integration : continous build + continous test 
 old code with new code
