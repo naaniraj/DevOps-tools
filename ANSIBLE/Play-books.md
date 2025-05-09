@@ -9,3 +9,7 @@ yaml is syntax-based.
 yaml start with --- and end with ...
 we write it on list format.
 extension is .yml or .yaml
+
+## 2️⃣ How to write a YAML file  ?
+_____________________________
+
