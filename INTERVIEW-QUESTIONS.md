@@ -45,6 +45,51 @@
 15 -how did you handle situation where k8 prod was going to crash loop back off state<br>
 16 -what is approach zero downtime deployment in k8<br>
 
+****************************************************************
+# Real-Time DevOps Interview Questions 
+
+**🧩 Kubernetes**<br>
+➤ Why does a Kubernetes pod remain in the Pending state?<br>
+➤ What are PersistentVolume (PV) and PersistentVolumeClaim (PVC) in Kubernetes? Real-time usage?<br>
+➤ What is the difference between Liveness and Readiness probes? How to configure them?<br>
+➤ What is Horizontal Pod Autoscaler (HPA) in Kubernetes and when do you use it?<br>
+
+**🐳 Docker**<br>
+➤ A Docker container is running, but the application is not accessible — what could be the reason?<br>
+➤ What’s the difference between CMD and ENTRYPOINT in a Dockerfile? When to use each?<br>
+➤ What does the Docker architecture look like in real use cases?<br>
+➤ Can you share a real-time Docker Compose file example?<br>
+
+**⚙️ Jenkins & CI/CD**<br>
+➤ Write a Jenkins Declarative Pipeline with multiple stages.<br>
+➤ How many Jenkins slave agents are there in your project and what is their capacity?<br>
+
+**🧬 Git & Source Control**<br>
+➤ What’s the difference between git revert and git reset?<br>
+➤ What Git branching strategies do you follow in your team?<br>
+
+**🐚 Shell Scripting**<br>
+➤ Write a shell script to archive files older than 7 days.<br>
+➤ Extend it to send an alert if disk usage exceeds 80%.<br>
+
+**🏗️ Terraform & IaC**<br>
+➤ What are the key lifecycle stages in Terraform?<br>
+➤ How do you review infrastructure changes before applying in Terraform?<br>
+➤ How is Terraform state locking managed in teams?<br>
+➤ Given a CIDR block in AWS, how would you design and subnet a VPC?<br>
+
+**☁️ AWS**<br>
+➤ What are the different types of Load Balancers in AWS and when do you use each?<br>
+
+**🐍 Python**<br>
+➤ Where have you recently used a Python script in your DevOps project?<br>
+➤ What modules did you use and why?<br>
+
+**🧱 Linux & OS Concepts**<br>
+➤ What’s the difference between hard and soft links in Linux?<br>
+➤ How do you use sed and awk for text processing?<br>
+➤ How do you find the Process ID (PID) of a Linux process?<br>
+
 
   
 
