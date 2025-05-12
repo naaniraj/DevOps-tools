@@ -90,6 +90,12 @@
 ➤ How do you use sed and awk for text processing?<br>
 ➤ How do you find the Process ID (PID) of a Linux process?<br>
 
+1 .How would you approach a CI/CD pipeline failure?<br>
+2 .How do you manage infrastructure as code with tools like Terraform? <br>
+3 .How would you handle a Docker container not starting?<br>
+4 . How do you implement monitoring and logging for systems?<br>
+5 . How would you ensure high availability and disaster recovery?<br>
+
 
   
 
