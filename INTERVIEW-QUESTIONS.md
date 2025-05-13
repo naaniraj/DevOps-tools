@@ -97,6 +97,40 @@
 5 . How would you ensure high availability and disaster recovery?<br>
 
 
+Interview Questions - Cloud & DevOps Engineer Role.
+
+L1 Questions:
+
+1️⃣ In Git, explain the push and pull commands.
+2️⃣ What is the use of Git tags?
+3️⃣ What are the different types of branches in Git?
+4️⃣ How do you write an Ansible playbook, and what client requirements do you consider?
+5️⃣ In Python, what are lists and tuples, and how do they differ?
+6️⃣ In CloudWatch, what is the use of log groups and log trails?
+7️⃣ In Terraform, what is the purpose of init, plan, and apply commands?
+8️⃣ What happens if the Terraform state file is accidentally deleted?
+9️⃣ What is the purpose of creating S3 bucket policies?
+🔟 How do you maintain the lifecycle of an S3 bucket?
+1️⃣1️⃣ In Airflow, if a job fails, how do you debug it?
+1️⃣2️⃣ If you're facing performance issues on a server, how do you troubleshoot?
+
+ L2 Questions:
+
+1️⃣ What are Network ACLs and Security Groups, and how do they differ?
+2️⃣ Explain EC2 instances and handling multiple VPCs.
+3️⃣ How do you configure AWS RDS, and what factors do you consider (size, requirements, etc.)?
+4️⃣ How much data is stored in your RDS MySQL?
+5️⃣ How many masters and slaves are in RDS?
+6️⃣ How do you configure a Grafana dashboard?
+7️⃣ What kind of CI/CD pipelines are you familiar with?
+8️⃣ Explain Declarative vs. Scripting pipelines.
+9️⃣ In Kubernetes, if a pod is in a pending state, how do you troubleshoot?
+🔟 If Docker containers are consuming too much disk space, how do you fix it?
+1️⃣1️⃣ In Linux, how do you attach and detach a filesystem?
+1️⃣2️⃣ How do you print the last 15 lines of a file in Linux?
+1️⃣3️⃣ How do you enable passwordless authentication between two servers?
+
+
   
 
    
