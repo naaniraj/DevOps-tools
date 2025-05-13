@@ -19,5 +19,15 @@ ensuring it runs consistently across different environments
 
 ### 3 .What is the difference between a container and a virtual machine?
 *******************************************************************
-Containers are more lightweight than virtual machines because they share the host system’s kernel,
-while virtual machines have their own separate operating systems.
+ 1 - resouce utalization ----  Containers are more lightweight than virtual machines because they share the host system’s kernel,
+                                while virtual machines have their own separate operating systems. (V / M) -- its have full fledge operation system 
+                                and hyper version ,making then more resouce-intensive .
+                                
+ 2 - portabulity ------------- containers disigend for to portable for run any operating system with compatable host operating system 
+                               ( V / M) -- are less portable as they need .
+
+ 3 - Security  --------------  containers provide less isolation as per share the operating system 
+                               ( V / M ) --  provide higher level security as each V/M have a own operating system 
+                               and it can be isolated from other host and other V/M
+
+ 4 - management ------------- managing  containers are easy then managing v/m  we can use whare ever you want .                              
