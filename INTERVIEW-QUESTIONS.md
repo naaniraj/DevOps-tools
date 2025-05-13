@@ -131,6 +131,30 @@ L1 Questions:
 1️⃣3️⃣ How do you enable passwordless authentication between two servers?
 
 
+
+******Interview Question For Fresher******
+1.What is DevOps Lifecycle?
+2.Have you used any Linux Flavors, if yes, which one?
+3.What is the command to change the ownership and permission of a file or directory in Linux?
+4.How do you manage and view running processes in Linux?
+5.What is SSH?
+6.What is DNS (Domain Name System), and how does it work?
+7.What is NAT(Network Address Translatioj), and why is it used?
+8.Explain the difference between TCP and UDP Protocols.
+9.What os Git and how do we use it in DevOps?
+10.Explain the workflow of how to push the code from a local machine.
+11.How do you revert a commit that you made in your repository?
+What is a Branch in a Repository?
+13.What cloud you are familiar with?
+14.What is VPC in cloud?
+15.What is the difference between a Private and Public Subnet and what differentiates it?
+16.What is the Deifference between reserved instance and spot instances?
+17.What is CloudFormation (AWS) ?
+18.What are the popular IaC tools have you used?
+19.What is the difference between Terraform & Ansible?
+20.What is a playbook in Ansible?
+
+
   
 
    
