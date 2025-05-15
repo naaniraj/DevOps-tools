@@ -1,0 +1,47 @@
+What are Permissions?
+Permissions decide who can read, write, or run a file.
+
+Example of permission:
+-rwxr-xr--
+
+Breakdown:
+
+First character: - means file, d means directory
+
+rwx: Owner can read, write, execute
+
+r-x: Group can read, execute
+
+r--: Others can read only
+
+Commands
+Command	What it Does
+chmod 755 file	Changes permission (explained below)
+chown user file	Changes the owner of the file
+chgrp group file	Changes the group of the file
+🎯 Permission Numbers (Shortcuts)
+r = 4, w = 2, x = 1
+
+Add them together:
+
+7 = rwx (read, write, execute)
+
+6 = rw- (read, write)
+
+5 = r-x (read, execute)
+
+4 = r-- (read only)
+
+Example:
+
+bash
+Copy
+Edit
+chmod 755 file
+Means:
+
+Owner: 7 → rwx
+
+Group: 5 → r-x
+
+Others: 5 → r-x

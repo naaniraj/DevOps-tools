@@ -1,1 +1,33 @@
-ansible introductin
+1️⃣ What is Ansible  ?
+*************************************
+--  it is a configaration management tool
+--  A nsible is simple IT Engine which automates 
+    Application deployment
+-- by writting play books we can install jenkins ,sonarqube 
+   nodes and other tools with SSH
+--  we use YAML scripting language which works on key -pair 
+-- we use PYTHON for back dend 
+-- by using ANSIBLE we can automate entair servers
+    creation ,installation, setup .
+-- it is an tool which automates from server creation to deployment
+
+2️⃣ What is " Inventary " File ?
+*****************************************
+An inventory file is like a contact list for computers and servers.
+It tells a tool (like Ansible) which machines to manage and how to connect to them.
+we keep the server s IP Adresess inside this inventary files .
+
+3️⃣ What is ansible " PLAY-BOOKS "  ?
+*************************************************
+-- PLAY-BOOK s written in YAML language 
+--- its human readable and understandable language 
+--- we use this for configure and automate the servers 
+    like : installing the servers ,configures the servers 
+           and managing the servers .
+ 4️⃣
+ 5️⃣
+ 6️⃣
+ 7️⃣
+ 8️⃣
+ 9️⃣
+ 🔟
