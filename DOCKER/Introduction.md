@@ -1,5 +1,10 @@
-# docker 🐳
+# 🚢docker 🐳
 ********************
+
+![![Docker-Architecture (1)](https://github.com/user-attachments/assets/be158689-f395-47cf-aa7f-c02d247ece01)
+)
+
+## 🚢 Docker Components :-
 
 
 ## What is DOCKER ?
@@ -7,6 +12,10 @@
 Docker is a tool that helps you build, package, and run applications easily.  it like a container
 that holds everything your application needs—code, libraries, and dependencies—so it runs the same way everywhere,
 whether on your laptop, a server, or in the cloud.
+
+* when we wanna run the application it's won't support all operating system <br>
+so we use containers to run in diffrent operating system <br>
+so we use mltiple containers in our application to work multiple OS 
 
 Just like a shipping container that can be moved from one place to another
 without worrying about what's inside, Docker ensures your application works the same way, no matter where you run it.
