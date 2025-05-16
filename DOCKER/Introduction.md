@@ -6,7 +6,10 @@
 
 ## 🚢 Docker Components :-
 
-
+ - when we run the cammand its will check is thare that image in our local or not<br>
+   then it will go to docker host and gave the our required image<br>
+   if stil thare is no image in docker host it will give from docker regestry to docker client .<br>
+   
 ## What is DOCKER ?
 ******************************
 Docker is a tool that helps you build, package, and run applications easily.  it like a container
@@ -33,14 +36,14 @@ ensuring it runs consistently across different environments
 ### 3 .What is the difference between a container and a virtual machine?
 *******************************************************************
  1 - resouce utalization ----  Containers are more lightweight than virtual machines because they share the host system’s kernel,
-                                while virtual machines have their own separate operating systems. (V / M) -- its have full fledge operation system 
+                                while virtual machines have their own separate operating systems.📦 (V / M) -- its have full fledge operation system 
                                 and hyper version ,making then more resouce-intensive .
                                 
  2 - portabulity ------------- containers disigend for to portable for run any operating system with compatable host operating system 
-                               ( V / M) -- are less portable as they need .
+                              📦 ( V / M) -- are less portable as they need .
 
  3 - Security  --------------  containers provide less isolation as per share the operating system 
-                               ( V / M ) --  provide higher level security as each V/M have a own operating system 
+                              📦 ( V / M ) --  provide higher level security as each V/M have a own operating system 
                                and it can be isolated from other host and other V/M
 
- 4 - management ------------- managing  containers are easy then managing v/m  we can use whare ever you want .                              
+ 4 - management ------------- managing  containers are easy then managing 📦v/m  we can use whare ever you want .                              
