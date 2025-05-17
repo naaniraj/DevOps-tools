@@ -10,17 +10,41 @@
 
 ## Configuration
 ### AWS Setup
-1. **IAM User**: Create an IAM user and generate the access and secret keys to configure your machine with AWS.
-     ---> go to aws A/C --> 🔍 [ IAM ] -->
-3. **Key Pair**: Create a key pair named `key` for accessing your EC2 instances.
+1. **IAM User**: Create an IAM user and generate the access and secret keys to configure your machine with AWS.<br>
+     ---> go to aws A/C --> 🔍 [ IAM ] --> users --> create user --> user-Name:-{ DevOps-project-User}<br>
+        -->  ✅  next <br>
+   ---> **Set Permission**
+       --> ✅ Attach policy directly <br>
+   
+   ---->**permissions policy** 🔐<br>
+      -> ✅ -Administrater access<br>
+      -> ✅ - ( you can select whcich one you want )<br>
+       ====> NEXT    =====> Create User<br>
 
+   ---> go to our user { DevOps-project-User } --> Security Credentiol --> Create Access Key<br>
+       --> ✅ CLI -Cammand Line Interface -->✅ confermation<br>
+                                     ===> NEXT<br>
+   
+   -->Decription value :- {AWS-Access-Key-Secrect-key}<br>
+                                    ===> CREATE ACCESS KEY<br>
+   
+   [ Copy Those Keys save it some whare ] <br>
+                                   ===> DONE <br>
+   
+   --> 🔍 [ EC2 ] --> key pair --> creatr a key-pair --> <br>
+      -->  Name :- Key   --> ✅ RSA --> ✅ .PEM --> <br>
+                                   ===> CREATE KEY-PAIR<br>
+   [ the key will download in our local machine 📁-->📄 ] <br>
+   
 ## Infrastructure Setup Using Terraform
+
 1. **Clone the Repository** (Open Command Prompt & run below):
    ```bash
    git clone https://github.com/pandacloud1/DevopsProject2.git
    cd DevopsProject2
    code .   # this command will open VS code in backend
    ```
+   
 
 
 
