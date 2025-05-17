@@ -39,11 +39,23 @@
 ## Infrastructure Setup Using Terraform
 
 1. **Clone the Repository** (Open Command Prompt & run below):
-   ```bash
-   git clone https://github.com/pandacloud1/DevopsProject2.git
-   cd DevopsProject2
-   code .   # this command will open VS code in backend
-   ```
+   ---> go to git hub copy the code --> before create a folder in local 📁{DevOps-project-2}
+    --> open git bah from 📁 --> clone to the code to gitbash
+   -$ cd DevOps-Project-2 
+   -$ devops project2>code . { it will open VS-Code}
+     { you can see all the files in VS-CODE }
+
+   🔤-VS-CODE  ==> terraform_code --> main.tf
+   { you can see which infra we gonna create for our project }
+
+   
+   
+   
+
+
+
+
+      
    
 
 
