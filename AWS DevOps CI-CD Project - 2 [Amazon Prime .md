@@ -140,6 +140,47 @@
    --> ✅ - Docker -Build -Step
    --> ☑️ - Prometheus metrics 
                   ===> INSTALL 
+         --->  ☑️ Restart Jenkins when installation is complete ( the jenkis will restart )
+
+  #### Configurw the jenkis system and sonar-qube setup
+   ----> Manaje jenkis --> System --> 
+      ---> SonarQube Server --> Sonar qube installations  -->
+      -> Name : SonarServer
+      -> Server URL : http//100.24.54.83:9000 { give the Sonarqube URL }
+      -> Server Authenticatin Tocken ^ {select"Sonar-tocken"}
+                                     ==> SAVE 
+
+ #### Set-up Diffrent TOOL's in Jenkis 
+  ----> Manage Jenkis --> Tool's --> 
+    ---> JDK installation -->  jDK
+    -> Name : jdk
+    -> ☑️ Install Automatically 
+    -> ^* Add installer {select"Install from adoptium.net"}
+    -> ^* jdk-17.0.8.1+1 {select which version jdk you want}
+        [ you can multiple versions if we want ]
+        
+   ---> SonarQube Scanner installations 
+     -> Name : SonarQube Scanner 
+     -> ☑️ Install Automatically 
+     -> Version : SonarQube Scanner 6.2.1.4610
+
+   ---> NodeJS installations
+     -> Name : NodeJS
+     -> ^* Add installer
+     -> ☑️ Install Automatically 
+     -> Version : NodeJS 16.20.0
+
+   ---> Docker  installations 
+     -> Name : Docker
+     -> ☑️ Install Automatically 
+     ->  ^* Add installer {select"Download from docker.com"}
+     -> Docker version : latest
+                       ==> SAVE
+    [ like this we can intigrate tools in Jenkis ]
+
+#### Build Pipeline Overview
+    
+    
                    
                                                           
    
