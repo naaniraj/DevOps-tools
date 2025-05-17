@@ -48,6 +48,31 @@
    🔤-VS-CODE  ==> terraform_code --> main.tf
    { you can see which infra we gonna create for our project }
 
+   --> copy your .pem file key --> go back to terraform code --> paste at main.tf file
+   --> click right key in laptop on main.tf --> open in intigrated terminal -->
+   --> Run the below commands to reduce the path displayed in VS Code terminal (Optional)
+     ```bash
+     code $PROFILE
+     function prompt {"$PWD > "}
+     function prompt {$(Get-Location -Leaf) + " > "}
+     ```
+     - Run the following commands:
+     ```bash
+     aws configure
+ { NOW you laptop configured with AWS account and provide access key and screat key }
+ 
+     terraform init
+  {this cammand will intlize your repository
+  and it will show " Terraform has benn successfully Initializd }
+
+     terrafrom plan
+  { it will show which infrastracture we gonna create }
+  
+     terraform apply --auto-approve
+  {it will create the infra ,at the end it's show "Apply complete! resouces: 2 added, 0 changed, 0 destroyed.  
+     ```
+    
+         
    
    
    
