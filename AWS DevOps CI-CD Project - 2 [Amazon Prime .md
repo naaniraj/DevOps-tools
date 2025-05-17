@@ -72,7 +72,7 @@
   {it will create the infra ,at the end it's show "Apply complete! resouces: 2 added, 0 changed, 0 destroyed.  
  
      
- ## 2 . Configure Sonar-QUBE
+ ## 2 . Configure Sonar-QUBE 🛡️
 
  in CLI 📟 ....---> vopy the https ptth<br>
  ( access jenkins server here -----> http//100.24.54.83:8080 )<br>
@@ -93,7 +93,53 @@
                         *sonarqube name name and url of jenkins of sonarqube         ===>> CREATE
               { it will sending real time notification to  jenkis }
 
----> Security --> Users --> Create Users -->         
+##### Create Tocken 🔑
+---> Security --> Users --> tocken --> click on the hirizotal line ( Update tockrn )
+  -->**Genrate tocken** :- 
+    - Name :- Sonar tocken  ===> Genrate [*🔑]( copy that tocken save it some whare )
+   --> go to jenkia --> Manage jenkins --> Credentiala --> System -->  Global credentials (unrestricted)
+
+   { we should Create  Sonar-tocken , Access-key , Serect-key }
+   
+   ==> ➕ Add credentials 
+      -> Kind : ^ (secect text)
+      -> secect : ********( paste the  [*🔑])
+      -> ID  : Sonar-tocken
+      -> Decription : Sonar-tocken
+                    ===> CREATE 
+      { Like this we can add Sonar-Qube Tocken in Jenkis }
+      
+   [ add few more credentials of access-key like AWS ]
+   ==> ➕ Add credentials 
+      -> Kind : ^ (secect text)
+      -> secect : ******** give access key of AWS ( paste the  [*🔑])
+      -> ID  : Access-key
+      -> Decription : Access-key
+                    ===> CREATE 
+
+   [ add few more credentials of Secect-key like AWS ]
+   ==> ➕ Add credentials 
+      -> Kind : ^ (secect text)
+      -> secect : ******** give Secrect key of AWS ( paste the  [*🔑])
+      -> ID  : Serect-key
+      -> Decription : Serect-key
+                    ===> CREATE 
+      { we have to give Sonar-tocken , Access-key , Serect-key }    
+
+ ## 2 .  Configure Jenkins 🤖  - 🔌Plugins
+
+ ---> Manage Jenkis --> Plugins --> Avalable Plugins -->  🔍 serch bar
+   --> ✅ - SonarQube Scaner
+   --> ☑️ - NodeJS
+   --> ✅ - Pipeline :Stage View
+   --> ☑️ - Eclipse Temurin installer
+   --> ✅ - Docker
+   --> ☑️ - Docker Commons 
+   --> ✅ - Docker Pipeline
+   --> ☑️ - Docker API 
+   --> ✅ - Docker -Build -Step
+   --> ☑️ - Prometheus metrics 
+                  ===> INSTALL 
                    
                                                           
    
