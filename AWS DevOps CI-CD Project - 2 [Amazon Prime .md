@@ -36,7 +36,7 @@
                                    ===> CREATE KEY-PAIR<br>
    [ the key will download in our local machine 📁-->📄 ] <br>
    
-## Infrastructure Setup Using Terraform
+## 1 . Infrastructure Setup Using Terraform
 
 1. **Clone the Repository** (Open Command Prompt & run below):
    ---> go to git hub copy the code --> before create a folder in local 📁{DevOps-project-2}
@@ -70,11 +70,32 @@
   
      terraform apply --auto-approve
   {it will create the infra ,at the end it's show "Apply complete! resouces: 2 added, 0 changed, 0 destroyed.  
-     ```
-    
-         
-   
-   
+ 
+     
+ ## 2 . Configure Sonar-QUBE
+
+ in CLI 📟 ....---> vopy the https ptth<br>
+ ( access jenkins server here -----> http//100.24.54.83:8080 )<br>
+-->🔍 http//100.24.54.83:8080 --> Access the jenkis <br>
+    -> 👤 USER: niranjan -> 🔓 PASS-WD : NRraju@143<br>
+
+---> acees Sonar-qube URL same as jenkins <br>
+    ( access Sonar-Qube server here -----> http//100.24.54.83:9000 )<br>
+   --> 🔍 http//100.24.54.83:9000 --> access Sonar-Qube<br>
+   -->user:-admin -->pass w/d :-admin<br>
+   -> 👤 USER: admin -> 🔓 PASS-WD : NRraju@143  <br>
+
+   #### WEB-HOOK for Sonar-Qube 🪝
+
+   ---> Sonar-QUBE Web-Page --> Admistration --> Configaration --> Web-hooks
+    ==> CREATE --> Name : SonarQube-Webhook
+               --> URL  : copy and paste the jenkins URL ( http//100.24.54.83:8080/SonarQube-Webhook ) 
+                        *sonarqube name name and url of jenkins of sonarqube         ===>> CREATE
+              { it will sending real time notification to  jenkis }
+
+---> Security --> Users --> Create Users -->         
+                   
+                                                          
    
 
 
