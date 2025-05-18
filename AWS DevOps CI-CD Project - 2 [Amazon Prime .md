@@ -93,7 +93,7 @@
                         *sonarqube name name and url of jenkins of sonarqube         ===>> CREATE
               { it will sending real time notification to  jenkis }
 
-##### Create Tocken 🔑
+#####  ➕ Create Tocken 🔑
 ---> Security --> Users --> tocken --> click on the hirizotal line ( Update tockrn )
   -->**Genrate tocken** :- 
     - Name :- Sonar tocken  ===> Genrate [*🔑]( copy that tocken save it some whare )
@@ -142,7 +142,7 @@
                   ===> INSTALL 
          --->  ☑️ Restart Jenkins when installation is complete ( the jenkis will restart )
 
-  #### Configurw the jenkis system and sonar-qube setup
+  #### ➕ . Configurw the jenkis system and sonar-qube setup
    ----> Manaje jenkis --> System --> 
       ---> SonarQube Server --> Sonar qube installations  -->
       -> Name : SonarServer
@@ -150,7 +150,7 @@
       -> Server Authenticatin Tocken ^ {select"Sonar-tocken"}
                                      ==> SAVE 
 
- #### Set-up Diffrent TOOL's in Jenkis 
+ #### . ➕  Set-up Diffrent TOOL's in Jenkis 
   ----> Manage Jenkis --> Tool's --> 
     ---> JDK installation -->  jDK
     -> Name : jdk
@@ -178,7 +178,13 @@
                        ==> SAVE
     [ like this we can intigrate tools in Jenkis ]
 
-#### Build Pipeline Overview
+## 3 . Build Pipeline Overview 🔁
+ + New-item --> Name : Build-Pipeline --> ^*{select"pipeline"} --> ✅OK
+   --> PIPELINE  - 🔁
+
+        pipeline {
+         agent any
+   
     
     
                    
