@@ -101,58 +101,72 @@ Interview Questions - Cloud & DevOps Engineer Role.
 
 L1 Questions:
 
-1️⃣ In Git, explain the push and pull commands.
-2️⃣ What is the use of Git tags?
-3️⃣ What are the different types of branches in Git?
-4️⃣ How do you write an Ansible playbook, and what client requirements do you consider?
-5️⃣ In Python, what are lists and tuples, and how do they differ?
-6️⃣ In CloudWatch, what is the use of log groups and log trails?
-7️⃣ In Terraform, what is the purpose of init, plan, and apply commands?
-8️⃣ What happens if the Terraform state file is accidentally deleted?
-9️⃣ What is the purpose of creating S3 bucket policies?
-🔟 How do you maintain the lifecycle of an S3 bucket?
-1️⃣1️⃣ In Airflow, if a job fails, how do you debug it?
-1️⃣2️⃣ If you're facing performance issues on a server, how do you troubleshoot?
+1️⃣ In Git, explain the push and pull commands.<br>
+2️⃣ What is the use of Git tags?<br>
+3️⃣ What are the different types of branches in Git?<br>
+4️⃣ How do you write an Ansible playbook, and what client requirements do you consider?<br>
+5️⃣ In Python, what are lists and tuples, and how do they differ?<br>
+6️⃣ In CloudWatch, what is the use of log groups and log trails?<br>
+7️⃣ In Terraform, what is the purpose of init, plan, and apply commands?<br>
+8️⃣ What happens if the Terraform state file is accidentally deleted?<br>
+9️⃣ What is the purpose of creating S3 bucket policies?<br>
+🔟 How do you maintain the lifecycle of an S3 bucket?<br>
+1️⃣1️⃣ In Airflow, if a job fails, how do you debug it?<br>
+1️⃣2️⃣ If you're facing performance issues on a server, how do you troubleshoot?<br>
 
  L2 Questions:
 
-1️⃣ What are Network ACLs and Security Groups, and how do they differ?
-2️⃣ Explain EC2 instances and handling multiple VPCs.
-3️⃣ How do you configure AWS RDS, and what factors do you consider (size, requirements, etc.)?
-4️⃣ How much data is stored in your RDS MySQL?
-5️⃣ How many masters and slaves are in RDS?
-6️⃣ How do you configure a Grafana dashboard?
-7️⃣ What kind of CI/CD pipelines are you familiar with?
-8️⃣ Explain Declarative vs. Scripting pipelines.
-9️⃣ In Kubernetes, if a pod is in a pending state, how do you troubleshoot?
-🔟 If Docker containers are consuming too much disk space, how do you fix it?
-1️⃣1️⃣ In Linux, how do you attach and detach a filesystem?
-1️⃣2️⃣ How do you print the last 15 lines of a file in Linux?
-1️⃣3️⃣ How do you enable passwordless authentication between two servers?
+1️⃣ What are Network ACLs and Security Groups, and how do they differ?<br>
+2️⃣ Explain EC2 instances and handling multiple VPCs.<br>
+3️⃣ How do you configure AWS RDS, and what factors do you consider (size, requirements, etc.)?<br>
+4️⃣ How much data is stored in your RDS MySQL?<br>
+5️⃣ How many masters and slaves are in RDS?<br>
+6️⃣ How do you configure a Grafana dashboard?<br>
+7️⃣ What kind of CI/CD pipelines are you familiar with?<br>
+8️⃣ Explain Declarative vs. Scripting pipelines.<br>
+9️⃣ In Kubernetes, if a pod is in a pending state, how do you troubleshoot?<br>
+🔟 If Docker containers are consuming too much disk space, how do you fix it?<br>
+1️⃣1️⃣ In Linux, how do you attach and detach a filesystem?<br>
+1️⃣2️⃣ How do you print the last 15 lines of a file in Linux?<br>
+1️⃣3️⃣ How do you enable passwordless authentication between two servers?<br>
 
 
 
-******Interview Question For Fresher******
-1.What is DevOps Lifecycle?
-2.Have you used any Linux Flavors, if yes, which one?
-3.What is the command to change the ownership and permission of a file or directory in Linux?
-4.How do you manage and view running processes in Linux?
-5.What is SSH?
-6.What is DNS (Domain Name System), and how does it work?
-7.What is NAT(Network Address Translatioj), and why is it used?
-8.Explain the difference between TCP and UDP Protocols.
-9.What os Git and how do we use it in DevOps?
-10.Explain the workflow of how to push the code from a local machine.
-11.How do you revert a commit that you made in your repository?
-What is a Branch in a Repository?
-13.What cloud you are familiar with?
-14.What is VPC in cloud?
-15.What is the difference between a Private and Public Subnet and what differentiates it?
-16.What is the Deifference between reserved instance and spot instances?
-17.What is CloudFormation (AWS) ?
-18.What are the popular IaC tools have you used?
-19.What is the difference between Terraform & Ansible?
-20.What is a playbook in Ansible?
+******Interview Question For Fresher******<br>
+1.What is DevOps Lifecycle?<br>
+2.Have you used any Linux Flavors, if yes, which one?<br>
+3.What is the command to change the ownership and permission of a file or directory in Linux?<br>
+4.How do you manage and view running processes in Linux?<br>
+5.What is SSH?<br>
+6.What is DNS (Domain Name System), and how does it work?<br>
+7.What is NAT(Network Address Translatioj), and why is it used?<br>
+8.Explain the difference between TCP and UDP Protocols.<br>
+9.What os Git and how do we use it in DevOps?<br>
+10.Explain the workflow of how to push the code from a local machine.<br>
+11.How do you revert a commit that you made in your repository?<br>
+What is a Branch in a Repository?<br>
+13.What cloud you are familiar with?<br>
+14.What is VPC in cloud?<br>
+15.What is the difference between a Private and Public Subnet and what differentiates it?<br>
+16.What is the Deifference between reserved instance and spot instances?<br>
+17.What is CloudFormation (AWS) ?<br>
+18.What are the popular IaC tools have you used?<br>
+19.What is the difference between Terraform & Ansible?<br>
+20.What is a playbook in Ansible?<br>
+
+### Senario Based Questions
+*******************************
+1.Suppose the particular stage is failed.immediately inform to concerned team How to do?<br>
+2.Suddenly all jenkins jobs are deleted accidentally How to restore it?<br>
+3.Can you explain parallel builds in jenkins?<br>
+4.Do you have any idea about Image pull secrets?<br>
+5.what is the difference between public subnet and private subnet?<br>
+6.Which type of load balancer is fast like application or network load balancer?<br>
+7.in PUBG game which type of aws load balancer we can use?<br>
+8.How you can maintain keys passwords in terraform configuration file?<br>
+9.In terraform where you need to change existing infrastructure and so how you do execute and plan to minimise downtime of an infrastructure<br>
+10.If you have three tier architecture in aws and how you can secure your application?<br>
+
 
 
   
