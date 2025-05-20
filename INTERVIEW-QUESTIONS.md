@@ -99,7 +99,7 @@
 
 ## Interview Questions - Cloud & DevOps Engineer Role.
 
-L1 Questions:
+**L1 Questions:**
 
 1️⃣ In Git, explain the push and pull commands.<br>
 2️⃣ What is the use of Git tags?<br>
@@ -114,7 +114,7 @@ L1 Questions:
 1️⃣1️⃣ In Airflow, if a job fails, how do you debug it?<br>
 1️⃣2️⃣ If you're facing performance issues on a server, how do you troubleshoot?<br>
 
- L2 Questions:
+**L2 Questions:**
 
 1️⃣ What are Network ACLs and Security Groups, and how do they differ?<br>
 2️⃣ Explain EC2 instances and handling multiple VPCs.<br>
@@ -132,7 +132,8 @@ L1 Questions:
 
 
 
-******Interview Question For Fresher******<br>
+## ******Interview Question For Fresher******<br>
+
 1.What is DevOps Lifecycle?<br>
 2.Have you used any Linux Flavors, if yes, which one?<br>
 3.What is the command to change the ownership and permission of a file or directory in Linux?<br>
@@ -154,7 +155,7 @@ What is a Branch in a Repository?<br>
 19.What is the difference between Terraform & Ansible?<br>
 20.What is a playbook in Ansible?<br>
 
-### Senario Based Questions
+## Senario Based Questions
 *******************************
 1.Suppose the particular stage is failed.immediately inform to concerned team How to do?<br>
 2.Suddenly all jenkins jobs are deleted accidentally How to restore it?<br>
