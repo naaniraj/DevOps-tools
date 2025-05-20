@@ -11,6 +11,11 @@ ___________________________________________________
     pipeline {
         agent any
 
+        parameters {
+            string (name: 'ECR_REPO_NAME', defalutvalue: 'amazon-prime' ,decription: 'enter your repositery name')
+        }
+         
+
         environment {
             SCANER_HOME = tool 'SonarQube Scaner'
         }
@@ -80,10 +85,58 @@ _______________________________________
 
      stage ('Docker image build') {
          steps {
-             sh "docker build -t params.ECR_REPO_NAME ."
-               
-                 
-                  
+             sh "docker build -t ${params.ECR_REPO_NAME} ." 
+
+---> add parameters in the first lines of pipeline   
+
+7 . this stage for create ECR repository
+__________________________________________
+
+    stage ('creatr ECR repo') {
+        steps {
+            ( ** copy and peaste the our source code repo by pipeline syntax under folling steps ** )
+            sh """
+            aws configure set aws_access_key_id $AWS_ACCESS_KEY
+            aws configure set aws_secrect_key_id $AWS_SCRECT_KEY
+            aws ecr create-repository --repository-name ${params.ECR_REPO_NAME} --region us-east-1
+            aws ecr describe-repository --repository-name ${params.ECR_REPO_NAME} --region us-east-1
+            """
+
+            
+--> go to pipeline syntax --> Sample step {select *^ "WithCredentials: Bind Credentila with variables"} 
+ --> Binding : {select *^ "Screct Text"} --> Variable : AWS_ACCESS_KEY 
+ --> Credentials : Access-key --> ^add : {select *^ "Screct Text"}
+  --> Variable:AWS_SCRECT_KEY  Credentials : *^ serect-key 
+                 ====> GENRATE PIPELINE SCRIPT
+ --> in the 2 and 3 line configare the aws key and call the variable "$AWS_ACCESS_KEY"  & "$AWS_SCRECT_KEY"  
+  ( like this we can give access key and screct key withot exposing )
+  
+8 ' Login to ECR 
+_____________________
+
+     stage ('login to ECR & tag image' ) {
+        steps {
+           (** copy the systax path of 7th stage 1 line and keep here**)
+           ( run the cammands as per our accounnt credentials like a account ID
+           by calling parameeters  )
+           
+
+
+---> go to aws account -->  ECR( Elastic Container Registry) --> Create a repository 
+ --> create --> Rep"" Name : test      =====> Create 
+ --> test --> view push cammands ( it will show you how to login to ECR and how to build image ,
+                                how to tag and how to push the image 
+NOTE : you can find this pipeline vedeo in youtube at 1:27 time 
+  YOUTUBE : https://www.youtube.com/watch?v=Gd9Aofx-iLI&t=4239s
+
+  9 . push the image to AWS ECR 
+  _______________________________
+  
+     stage ('push the image to aws ECR') {
+         steps {
+            ( ** keep the first line of the 8 th stage** )
+            and paste the push cammand and insted of id image give parameter 
+
         
                   
               
