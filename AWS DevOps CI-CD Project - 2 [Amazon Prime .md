@@ -182,8 +182,22 @@
  + New-item --> Name : Build-Pipeline --> ^*{select"pipeline"} --> ✅OK
    --> PIPELINE  - 🔁
 
-        pipeline {
-         agent any
+NOTE : wite the pipeline what is keep it in  this location in this repo ---> JENKINS/Project-2-🔁Pipeline.md
+
+## build Pipeline 
+******************
+
+--> jenkins DashBoard --> build-pipelibe --> Build NOW  ( it will show pipeline is fail or success )
+if the pipeline is success in sonarqube you can see the result about code qulity
+--> if the pipeline is fail you can check the errors in code spaces and trabule shoot the error and build again 
+
+--> AWS a/c --> ECR --> you can see your repository "" amazon-prime ""
+ -->  amazon-prime  --> 3,latest( it s letest build number what we buld pipeline )
+
+ ## 4 . run jenkins build pipeline 
+ ______________________________
+ 
+        
    
    
     
