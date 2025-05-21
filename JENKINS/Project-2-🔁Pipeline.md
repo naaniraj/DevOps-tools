@@ -11,6 +11,11 @@ ___________________________________________________
     pipeline {
         agent any
 
+        tools {
+          jdk 'JDK'
+          NodeJS 'NodeJS'
+        }
+
         parameters {
             string (name: 'ECR_REPO_NAME', defalutvalue: 'amazon-prime' ,decription: 'enter your repositery name')
         }
@@ -32,6 +37,8 @@ ___________________________________________________
 --> Credentials : select Your credentilas 
     ---> GENRATE PIPELINE SCRIPT 
     ( copy and peaste in git checkout step )
+
+--> IN TOOLS     
 
 2 . this is 2 nd stage to intigrate with SonarQube 
 ______________________________________________________
@@ -136,6 +143,19 @@ NOTE : you can find this pipeline vedeo in youtube at 1:27 time
          steps {
             ( ** keep the first line of the 8 th stage** )
             and paste the push cammand and insted of id image give parameter 
+
+
+ 10 . Clean up the images from jenkisn serer 
+ _______________________________________________
+  when we buld image multiple times the privius images will accupay some space
+  by using this stage we can remove old images and keep latest build images in jenkins
+
+         stage ('Clean up the images from jenkins') {
+             steps {
+                (*write the 2 cammands of the 9 th stage and just rmi in the cammand
+                 for remove the old images )
+ 
+            
 
         
                   
