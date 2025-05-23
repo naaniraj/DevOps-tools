@@ -168,6 +168,54 @@ What is a Branch in a Repository?<br>
 9.In terraform where you need to change existing infrastructure and so how you do execute and plan to minimise downtime of an infrastructure<br>
 10.If you have three tier architecture in aws and how you can secure your application?<br>
 
+🚀  Scenario Questions
+ *************************************
+ 
+
+
+1. Troubleshooting Services:* 💡<br>
+ • Scenario : Your application is running on an Apache web server, but the website is not accessible. What steps would you take to identify and resolve the issue?<br>
+
+2. Disk Space Management* :💡
+ • *Scenario* : You receive an alert that a production server is running low on disk space. How would you identify the files or directories consuming the most space and clean it up safely?<br>
+
+3. Process Monitoring and Optimization:* 💡<br>
+ • *Scenario* : A server is experiencing high CPU usage, and the application performance is degraded. How would you identify the root cause and optimize the processes?<br>
+
+4. User Management and Permissions:* 💡<br>
+ • *Scenario* : A user is unable to access a specific directory even though they belong to the correct group. How would you troubleshoot and resolve this permission issue?<br>
+
+5. Network Connectivity Issues:* 💡<br>
+ • *Scenario* : Your server is unable to reach a specific external IP address. What steps would you take to diagnose and resolve this network connectivity issue?<br>
+
+6. File Recovery* :💡<br>
+ • *Scenario* : An important configuration file has been accidentally deleted. How would you attempt to recover this file if there are no backups?<br>
+
+7. Automating Tasks with Shell Scripts:* 💡<br>
+ • *Scenario* : You need to automate the deployment of an application. How would you use shell scripting to automate the process, including stopping services, copying files, and restarting services?<br>
+
+8. Log Analysis:* 💡<br>
+• *Scenario* : An application is intermittently failing. How would you use Linux command-line tools to analyze logs and identify the root cause of these failures?<br>
+
+9. Service Start-Up Failure:* 💡<br>
+ • *Scenario* : A critical service fails to start after a server reboot. How would you diagnose and resolve the startup failure?<br>
+
+10. Kernel Tuning and Optimization* :💡<br>
+ • *Scenario* : You need to optimize the server’s performance for a high-traffic application. How would you tune kernel parameters to improve system performance?<br>
+
+11. Managing Crontab Entries:* 💡<br>
+ • *Scenario* : A scheduled cron job did not execute as expected. How would you troubleshoot this issue and ensure the job runs correctly in the future?<br>
+
+12. Handling Large File Transfers:* 💡<br>
+• *Scenario* : You need to transfer a large file securely from one server to another. What methods would you use to ensure the transfer is efficient and secure?<br>
+
+13. Deploying Updates with Zero Downtime* :💡<br>
+• *Scenario* : You need to deploy updates to an application without causing downtime. How would you achieve this on a Linux server?<br>
+
+14. Managing System Resources* :💡<br>
+• *Scenario* : The server's memory usage is consistently high, affecting application performance. What steps would you take to identify the cause and manage system resources effectively?<br>
+
+
 
 
   
