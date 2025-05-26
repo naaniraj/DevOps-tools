@@ -182,7 +182,7 @@
  + New-item --> Name : Build-Pipeline --> ^*{select"pipeline"} --> ✅OK
    --> PIPELINE  - 🔁
 
-NOTE : wite the pipeline what is keep it in  this location in this repo ---> JENKINS/Project-2-🔁Pipeline.md
+NOTE : wite the pipeline what is keep it in  this location in this repo ---> in this git-hub A/C --> JENKINS/Project-2-🔁Pipeline.md
 
 ## build Pipeline 
 ******************
