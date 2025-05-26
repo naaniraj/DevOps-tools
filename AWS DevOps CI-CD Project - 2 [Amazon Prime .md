@@ -34,7 +34,7 @@
    --> 🔍 [ EC2 ] --> key pair --> creatr a key-pair --> <br>
       -->  Name :- Key   --> ✅ RSA --> ✅ .PEM --> <br>
                                    ===> CREATE KEY-PAIR<br>
-   [ the key will download in our local machine 📁-->📄 ] <br>
+   [ the key will download in our local machine 📁-->📄 ] <br> 
    
 ## 1 . Infrastructure Setup Using Terraform
 
