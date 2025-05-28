@@ -46,4 +46,32 @@ ensuring it runs consistently across different environments
                               📦 ( V / M ) --  provide higher level security as each V/M have a own operating system 
                                and it can be isolated from other host and other V/M
 
- 4 - management ------------- managing  containers are easy then managing 📦v/m  we can use whare ever you want .                              
+ 4 - management ------------- managing  containers are easy then managing 📦v/m  we can use whare ever you want .   
+
+ ## 🚢-DOCKER - CONCEPT
+**********************
+
+•𝗜𝗺𝗮𝗴𝗲𝘀<br>
+↳ Read-only templates that are used to build containers. Images are created with Dockerfile instructions or can be downloaded from a Docker registry like Docker Hub.
+
+𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿:<br>
+↳ An instance of an image. It's a lightweight, standalone package that includes everything needed to run an application.
+
+𝗗𝗼𝗰𝗸𝗲𝗿𝗳𝗶𝗹𝗲<br>
+↳ A script-like file that defines the steps to create a Docker image.
+
+𝗗𝗼𝗰𝗸𝗲𝗿 𝗲𝗻𝗴𝗶𝗻𝗲<br>
+↳ The Docker engine is responsible for running and managing containers. It's composed of the Docker daemon and the Docker CLI that communicates through REST API.
+
+𝗗𝗼𝗰𝗸𝗲𝗿 𝗱𝗮𝗲𝗺𝗼𝗻<br>
+↳ The daemon is a persistent background service responsible for managing objects. It does so via listening for API requests. Docker objects include images, containers, networks, and storage volumes.
+
+𝗗𝗼𝗰𝗸𝗲𝗿 𝗿𝗲𝗴𝗶𝘀𝘁𝗿𝘆<br>
+↳ Are repositories where Docker images are stored and can be distributed from. Docker registries can be public or private. Docker Hub is the default public registry that Docker is configured with.
+
+
+
+
+
+
+
