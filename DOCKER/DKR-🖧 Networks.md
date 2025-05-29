@@ -14,6 +14,9 @@ we can costamize our network as per our usecase .<br>
 2️⃣-Host Networking <br>
 3️⃣-Overly Networking ( K8S )<br>
 
+### 1️⃣-Bridge Network
+
+
 --> each containers dhould communicate each container <br>
 EX : login container ,frent-end container .<br>
 --> each containers shold talk but if any contaer have sensitive information<br>
