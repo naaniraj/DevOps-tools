@@ -7,6 +7,8 @@ in real time one container shoud talk another container .<br>
 each conatiner have own uniqe port number to cannact each conatiner and with host.<br>
 its very crusheal in micro services archtechre .<br>
 we can costamize our network as per our usecase .<br>
+Docker networking is primarily used to establish communication<br>
+between Docker containers and the outside world. Docker supports different types of networks<br>
 
 ### ***Different TYPE 'S of Network's*** 
 
@@ -15,6 +17,12 @@ we can costamize our network as per our usecase .<br>
 3️⃣-Overly Networking ( K8S )<br>
 
 ### 1️⃣-Bridge Network 🌉
+in docker bride network  econtainers caommunicate with each others in  host system  ,<br>
+it's a default network mode in docker that let container communicate with vertuval networks .<br>
+
+### 2️⃣-Host Networking 
+
+### 3️⃣-Overly Networking ( K8S )
 
 
 --> each containers dhould communicate each container <br>
