@@ -5,10 +5,12 @@ becouse inside the server containers are fully isolated .<br>
 with the help of networks we can  access and control with containers from outside .<br>
 in real time one container shoud talk another container .<br>
 each conatiner have own uniqe port number to cannact each conatiner and with host.<br>
+its very crusheal in microsoft archtechre .<br>
+we can costamize our network as per our usecase .<br>
 
 ### ***Different TYPE 'S of Network's*** 
 
-1️⃣-Bridge Network<br>
+1️⃣-Bridge Network <br>
 2️⃣-Host Networking <br>
 3️⃣-Overly Networking ( K8S )<br>
 
