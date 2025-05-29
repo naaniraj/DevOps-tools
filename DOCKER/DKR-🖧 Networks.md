@@ -18,7 +18,8 @@ between Docker containers and the outside world. Docker supports different types
 
 ### 1️⃣-Bridge Network 🌉
 in docker bride network  econtainers caommunicate with each others in  host system  ,<br>
-it's a default network mode in docker that let container communicate with vertuval networks .<br>
+it's a default network mode in docker that let container communicate with vertuval networks ,<br>
+It is a private internal network created by Docker on the host .<br>
 
 ### 2️⃣-Host Networking 
 
