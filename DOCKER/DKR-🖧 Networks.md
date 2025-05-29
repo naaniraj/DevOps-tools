@@ -14,7 +14,7 @@ we can costamize our network as per our usecase .<br>
 2️⃣-Host Networking <br>
 3️⃣-Overly Networking ( K8S )<br>
 
-### 1️⃣-Bridge Network
+### 1️⃣-Bridge Network 🌉
 
 
 --> each containers dhould communicate each container <br>
