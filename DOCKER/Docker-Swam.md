@@ -37,7 +37,10 @@ Docker Swarm ensures that the services are distributed and run on the available 
 📚**Load Balancing**: <br>
 Swarm includes built-in load balancing, distributing incoming requests among the various <br>
 instances of a service running on different nodes. This helps in scaling applications and<br>
-improving performance.High Availability: Docker Swarm provides high availability by <br>
+improving performance.
+
+📚**High Availability**: <br>
+Docker Swarm provides high availability by <br>
 automatically rescheduling tasks (individual units of a service) to healthy nodes in case of node failures.<br>
 
 📚**Scalability**:<br>
