@@ -1,6 +1,5 @@
 # what is docker compose :
 *******************************
-"" DOCKER - COMPSE "" is The most importent concept in  docker , <br>
-   by sing this we can run all containers to gether .
-
-
+in Docker compose we can manage and handle mutiple cannacted containers at a time .<br>
+we write a file called "docker-compse.yaml" ,inside the compose file we can specify and <br>
+write as per our container requirments .we can mannage without manual interface ,<br>
