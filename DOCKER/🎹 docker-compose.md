@@ -27,13 +27,19 @@ when you run the applicatin with port number it will run in webservwe <br>
     docker-compose down
 (it will remove the containers ) 
 
-## *HOW TO WRITE DOCKER COMPOSE FILE* 📝
+## web set-up 📝
 
     c ..
     ls
     cd awesome -compose /    # its a set of docker compose examples 
     cd nginx-redis  ( take the file that you wanna run )
     docker-compose up  ( to run the containers up )
+( in google "localhost:80"  - it will show web:1 ;Number of visit is :1
+click on refresh you will get more web and visit numbers 
+
+## *HOW TO WRITE DOCKER COMPOSE FILE* 📝
+( copy the code of code of -"awesome-compose/nginx-nodejs-redis/web/servsr.js"
+    
     
     
 
