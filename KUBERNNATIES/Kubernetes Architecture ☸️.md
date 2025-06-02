@@ -7,7 +7,7 @@
 
 ### control panel :-
 
-1. APIServer  :-  its reseave the request from user or application , and check the requests ia valed or not ,and communicate with clasters .
+1. **APIServer**  :-  its reseave the request from user or application , and check the requests ia valed or not ,and communicate with clasters .
  
 2. schedular  :-   when the pod is created  the schedular check is there any helthy nods or not and select the best node and alocate or give
                   the load to the pod
