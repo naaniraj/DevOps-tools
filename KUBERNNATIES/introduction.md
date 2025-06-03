@@ -1,7 +1,9 @@
+
+# What is kubernetes ?
+***********************
 --->  kubernetes ia open-souce and container archetracton tool ,
-hat helps manage containers—small, lightweight programs that run applications.
-Think of it like a traffic controller for apps,
-making sure they run smoothly without crashes or downtime.
+hat helps manage containers, lightweight programs that run applications.
+we can control the containers without manual process 
 
 --->  Kubernetes, also known as K8s, is an open-source system for automating deployment, 
 scaling, and management of containerized applications.
@@ -9,7 +11,7 @@ scaling, and management of containerized applications.
 --->  Kubernetes (often called K8s) is a tool that helps manage and run application s
       on multiple computers (servers) automatically.
 
-What does Kubernetes do?
+## What does Kubernetes do?
 ***********************************************
 Automatically runs your app – If a part of your app crashes, Kubernetes restarts it.
 
