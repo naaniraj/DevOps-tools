@@ -27,8 +27,3 @@
 
 
 
-# kubernetes Archecture -☸️
-****************************
-
-![![1746450615505](https://github.com/user-attachments/assets/6e672f11-2c1d-4abb-aa67-b5e624ac0fc7)
-)
