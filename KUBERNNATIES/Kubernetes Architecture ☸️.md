@@ -24,3 +24,11 @@
  1. ***kube-proxy*** :- it's maintain the network communication betwwn nodes and pods ,handles the route traffic , destribute the load evenly to the pods to running application smoothly ,for pod to pod communication
   
  2. ***kubelet***    :-  it's a care taker of the pods in each nodes , check the helth of the nodes and  rport to the contrl plane  to run efeciently .
+
+
+
+# kubernetes Archecture -☸️
+****************************
+
+![![1746450615505](https://github.com/user-attachments/assets/6e672f11-2c1d-4abb-aa67-b5e624ac0fc7)
+)
