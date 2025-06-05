@@ -1,4 +1,4 @@
-***1) What is Kubernetes? / What do you understand by Kubernetes?***<br>
+## 1) What is Kubernetes? / What do you understand by Kubernetes?<br>
 Kubernetes is an open-source container-orchestration tool or system used to automate tasks such as the<br>
 management, monitoring, scaling, and deploying containerized applications.<br>
 ________________________________________
