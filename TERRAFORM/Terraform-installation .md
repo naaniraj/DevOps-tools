@@ -38,6 +38,49 @@ Edit --> give the path of the our terraform EXE.FILE📄[ -->NEW -->C:\SOFTWARES
 --> go to   "VS-CODE"  -->📁[Create a folder "Terraform"]
     ---> 📄Session-1 { you can write terraform code here }
 
+## Installation :
+
+### Ubuntu:
+
+#!/bin/bash
+
+apt update -y <br>
+sudo apt install curl wget apt-transport-https -y<br>
+sudo curl -fsSL https://get.docker.com -o get-docker.sh<br>
+sudo sh get-docker.sh<br>
+sudo curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64<br>
+sudo mv minikube-linux-amd64 /usr/local/bin/minikube<br>
+sudo chmod +x /usr/local/bin/minikube <br>
+sudo minikube version<br>
+sudo curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"<br>
+sudo curl -LO "https://dl.k8s.io/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl.sha256"<br>
+sudo echo "$(cat kubectl.sha256) kubectl" | sha256sum --check <br>
+sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl<br>
+sudo kubectl version --client<br>
+sudo kubectl version --client --output=yaml   <br>
+sudo minikube start --driver=docker --force<br>
+
+
+
+
+
+### RedHat: 
+
+yum install docker -y<br>
+systemctl start docker<br>
+systemctl status docker<br>
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"<br>
+sudo mv kubectl /usr/local/bin/kubectl<br>
+sudo chmod +x /usr/local/bin/kubectl<br>
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64<br>
+sudo install minikube-linux-amd64 /usr/local/bin/minikube<br>
+sudo yum install iptables -y<br>
+yum install conntrack -y <br>
+minikube start --driver=docker --force<br>
+minikube status <br>
+
+    
+
   
 
    
