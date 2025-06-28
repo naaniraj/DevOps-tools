@@ -21,6 +21,7 @@
   --> Rolling Updates
   --> Rollbacks
   --> Kubectl apply and describe
+  
 ***DAY 5-6: Service & Config Management***<br>
 **📝-Day 5:Services in K8's**
   --> ClusterIP vs NodePort vs Load Balancer
@@ -28,15 +29,35 @@
 **📝-Day 6:ConfigMaps & Secrects**
   --> Inject Configs/ Environment
   --> Secure app Secrects
+  
 ***DAY 7-8: Storage & Namespaces***<br>
-📝
-📝
-***DAY 9-10 :  Helth Checks & Networking***<br>
-📝
-📝
+**📝-Day 7:Volumes & Persistentt Storage**
+  --> PV vs PVC
+  --> Attach Volumes to Pods
+**📝-Day 8: Name Space & Resources**
+  --> Isolated Apps
+  --> CPU / Memory Limits
+  
+***DAY 9-10:  Helth Checks & Networking***<br>
+**📝-Day 9 : Helth Pods**
+  --> Liveness & Rediness Checks
+  --> Add Probes in YAML
+**📝-Day 10 : Kubernetes Networkings**
+  --> Pod's Communication
+  --> DNS & CNI Plugins
+  
 ***DAY 11-12 : Ingress & Helm***<br>
-📝
-📝
+**📝-Day 11 : Ingress Controller**
+  --> NGINX Ingress Setup
+  --> Routing Multiple Services
+**📝-Day 12 : Helm**
+  --> Install Charts
+  --> Reuse Deployment
+  
 ***DAY 13-14 : CI/CD + Real-world Project***<br>
-📝
-📝
+**📝-Day 13 : CI / CD with Kubernetes**
+  --> GitHub Action or Jenkins
+  --> Auto Deploy with Kubectl
+**📝-Day 14 : Real-World Project**
+  --> 3-tier App: Frontend + Backend +DB
+  --> Use Ingress , PVC , Secect,Config M
