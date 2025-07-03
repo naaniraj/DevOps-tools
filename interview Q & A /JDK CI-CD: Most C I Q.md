@@ -1,4 +1,4 @@
-1. Can you explain the CI/CD process in your current project?
+### 1. Can you explain the CI/CD process in your current project?
 Answer: Yes! In my current project, we use Jenkins to orchestrate our CI/CD pipeline, alongside tools like Maven, SonarQube, AppScan, Argo CD, and Kubernetes.
 
 Here's how it works:
@@ -16,7 +16,7 @@ This embodies GitOps practices where the Git repo becomes the source of truth.
 
 
 
-2. What are the different ways to trigger a Jenkins pipeline?
+### 2. What are the different ways to trigger a Jenkins pipeline?
 Answer: There are three primary ways:
 
 Poll SCM: Jenkins checks Git repo periodically for changes. (Inefficient)
@@ -25,7 +25,7 @@ Webhooks (Recommended): GitHub sends a payload to Jenkins on events like push/PR
 
 
 
-3. How do you back up Jenkins?
+### 3. How do you back up Jenkins?
 Answer: Backups are critical. Here's what I do:
 
 Backup the .jenkins/ folder — it contains jobs, config, and logs.
@@ -36,7 +36,7 @@ Automate backups using cron jobs.
 
 
 
-4. How do you manage secrets in Jenkins?
+### 4. How do you manage secrets in Jenkins?
 Answer: There are multiple secure options:
 
 Jenkins Credentials Plugin: Stores secrets securely in Jenkins.
@@ -46,12 +46,12 @@ Cloud Secret Managers: AWS Secrets Manager, Azure Key Vault, etc.
 
 
 
-5. What is the latest Jenkins version you're using?
+### 5. What is the latest Jenkins version you're using?
 Answer: Always check the Jenkins changelog (https://www.jenkins.io/changelog/) before the interview. Currently, I use version X.Y.Z (insert current one).
 
 
 
-6. What are shared libraries/modules in Jenkins?
+### 6. What are shared libraries/modules in Jenkins?
 Answer: Shared Libraries promote reuse. These are versioned Groovy scripts that define functions and logic to be reused across multiple pipelines.
 
 Example use-cases:
@@ -62,7 +62,7 @@ Team-wide CI/CD templates
 
 
 
-7. Can you build multi-language apps using Jenkins?
+### 7. Can you build multi-language apps using Jenkins?
 Answer: Yes! Jenkins supports multi-language builds by using Docker agents.
 
 Example:
@@ -75,7 +75,7 @@ This approach saves resources and allows flexibility.
 
 
 
-8. How to set up Jenkins auto-scaling in AWS?
+### 8. How to set up Jenkins auto-scaling in AWS?
 Answer:
 
 Launch a pre-configured EC2 instance with Jenkins.
@@ -87,7 +87,7 @@ Monitor via CloudWatch.
 
 
 
-9. How do you add a new worker node in Jenkins?
+### 9. How do you add a new worker node in Jenkins?
 Answer:
 
 Go to Manage Jenkins → Manage Nodes → New Node
@@ -96,7 +96,7 @@ Provide SSH details or Docker agent settings
 
 
 
-10. How do you install a plugin in Jenkins?
+### 10. How do you install a plugin in Jenkins?
 Answer: Via UI: Manage Jenkins → Manage Plugins → Available → Install
 
 Via CLI:
@@ -104,12 +104,12 @@ Via CLI:
   java -jar jenkins-cli.jar -s http://your-jenkins install-plugin plugin-name 
 
 
-11. What is JNLP and how does it work in Jenkins?
+### 11. What is JNLP and how does it work in Jenkins?
 Answer: JNLP (Java Network Launch Protocol) allows Jenkins agents to connect to the master. It enables dynamic agent registration and task execution.
 
 
 
-12. What are some commonly used Jenkins plugins?
+### 12. What are some commonly used Jenkins plugins?
 Answer: Be prepared to name at least 3-5. For me:
 
 Docker Pipeline Plugin
