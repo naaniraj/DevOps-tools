@@ -67,7 +67,13 @@ KUBERNETES
 --> the docker don't have "Auto Scaling"
 --> if you have one container one one docker host ,if it's have resources (4GB-ram-4CPO)
 --> if we have 1000 users in our applicatiom
-             
+--> in festival time the users will be increse 10,000 uses
+--> as per the load we have th increse the servers but in DOCKER  it don't have this future 
+--> if we use docker in our aplication it's go down 
+KUBERNETES
+--> IN kuber netres by sing AUTO-SCALING we can increse the servers as per our load 
+--> in oue resources utilizatin increse up to 80 % we can set spin the new server to scale up the server 
+to run our application without downtime .
              
 
   
