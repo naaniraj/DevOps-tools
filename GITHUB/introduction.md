@@ -1,7 +1,7 @@
 # GIT -GITHUB ARCHITECTURE 
 ****************************
 
-![![WhatsApp Image 2025-06-02 at 14 34 45_d8f7db3e](https://github.com/user-attachments/assets/b72a4047-50e6-4517-873a-471eec935a71)
+![WhatsApp Image 2025-06-02 at 14 34 45_d8f7db3e](https://github.com/user-attachments/assets/b72a4047-50e6-4517-873a-471eec935a71)
 )
 
 ### ✅GITHUB
