@@ -22,5 +22,11 @@ Here’s how it works 👇
 
 👉 Helm = 𝐒𝐢𝐦𝐩𝐥𝐞 𝐃𝐞𝐩𝐥𝐨𝐲𝐦𝐞𝐧𝐭𝐬, 𝐌𝐨𝐫𝐞 𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐨𝐧 <br>
 
+## 🚀 Helm chat Tutorial
+***********************
 ![Helm Chart Tutorial](https://github.com/user-attachments/assets/e3c40fdd-b381-4903-889b-3465c9a8b4f3)
+)
+## 📌 Helm cammand's chat sheet
+****************************
+!![HELM-chat sheet](https://github.com/user-attachments/assets/d2f38e31-0611-4d01-a80f-c34dec970566)
 )
