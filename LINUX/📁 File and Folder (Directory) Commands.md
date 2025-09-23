@@ -1,4 +1,7 @@
-Command	What it Does
+## file system cammand's
+*************************
+
+
 ls       = 	Shows the list of files and folders in the current place
 ls -l    = 	Shows files with details like size, date, and permissions
 cd folder_name          = Go inside a folder
