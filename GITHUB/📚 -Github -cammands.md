@@ -1,3 +1,8 @@
+# GIT BASIC CAMMAND'S
+**********************
+**********************
+![git cammand chat sheet](https://github.com/user-attachments/assets/a24edf45-3bc9-4926-9864-e25ec5708477)
+
 # 🚑 GIT & GIT-HUB CAMMAND'S
 *******************************
 *******************************
