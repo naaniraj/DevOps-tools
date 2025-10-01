@@ -1,3 +1,4 @@
+
 ### 1 What is terraform ?
 *******************************
 terraform is an open-source infrastracture as a code (lac) tool created by hashicorp,
@@ -17,4 +18,8 @@ when we deploy the resource which cource we gonna deploy ,its will record of the
 ********************************
 if we delete the state file ,we can restore it using terraform import cammand 
 EX:- Terraform import <file> <resource ID>
+# Terraform CLI Chat Sheet
+******************************
+*****************************
 
+![Terraform CLI Chat Sheet](https://github.com/user-attachments/assets/f02118b7-56ad-4ad4-b240-78ffe42ee0a0)
