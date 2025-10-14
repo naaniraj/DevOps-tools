@@ -11,7 +11,7 @@
 
 
 
-## ➡️ KUBERNETES ☸️
+## ➡️ KUBERNETES ☸️ 
 1 ) what is kubernetes ?                   2 ) kubernetes Architecture               3 ) kubernetes Components  <br>   
 4 ) what is Mater and slave clasters       5 ) Default Kubernetes Pode's             6 ) Kubernetes Installation     <br> 
 7 ) Kubernetes Services                    8 ) Persestence Volume                    9 ) Persestence Volume claim     <br> 
