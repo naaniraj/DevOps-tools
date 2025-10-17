@@ -18,7 +18,16 @@ when we deploy the resource which cource we gonna deploy ,its will record of the
 ********************************
 if we delete the state file ,we can restore it using terraform import cammand 
 EX:- Terraform import <file> <resource ID>
-# Terraform CLI Chat Sheet
+
+## Important concept's in Terraform 
+**********************************
+- Variables 
+- Conditions
+- loops
+- Functions
+- Data types
+
+### Terraform CLI Chat Sheet
 ******************************
 *****************************
 
