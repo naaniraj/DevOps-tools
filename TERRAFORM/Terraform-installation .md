@@ -13,7 +13,7 @@ Edit --> give the path of the our terraform EXE.FILE📄[ -->NEW -->C:\SOFTWARES
       terraform version
       
  " if the terraform is thare it will show the  version of TERRAFORM "
- ## Terraform CLI install
+ ## Terraform AWS CLI install
  *************************
  --> go to GOOGLE --> 🔍'AWS cli install ' -->  windows -->
  click the download of the path 
